@@ -1,0 +1,12 @@
+{
+  "name": "securechat-server",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for SecureChat (never sees message content)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  }
+}
